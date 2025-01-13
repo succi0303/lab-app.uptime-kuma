@@ -8,6 +8,5 @@ services:
         ports:
             - '3007:3001'
         restart: always
-        network_mode: host
 volumes:
   data:
